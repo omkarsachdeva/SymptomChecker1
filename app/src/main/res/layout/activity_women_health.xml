@@ -43,6 +43,7 @@
         app:layout_constraintVertical_bias="0.085" />
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cd1"
         android:layout_width="349dp"
         android:layout_height="152dp"
         android:backgroundTint="#E15B89"
@@ -75,6 +76,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cd3"
         android:layout_width="349dp"
         android:layout_height="152dp"
         android:backgroundTint="#E1AABD"
@@ -107,6 +109,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cd2"
         android:layout_width="349dp"
         android:layout_height="152dp"
         android:backgroundTint="#175C81"

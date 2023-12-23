@@ -12,8 +12,95 @@
         android:theme="@style/Theme.SymptomChecker"
         tools:targetApi="31">
         <activity
+            android:name=".emergencyalerts"
+            android:exported="false" />
+        <activity
+            android:name=".educationresources"
+            android:exported="false" />
+        <activity
+            android:name=".familyvaccineprofiles"
+            android:exported="false" />
+        <activity
+            android:name=".vaccinationcertificates"
+            android:exported="false" />
+        <activity
+            android:name=".urinarysymptoms"
+            android:exported="false" />
+        <activity
+            android:name=".neurologicalsymptoms"
+            android:exported="false" />
+        <activity
+            android:name=".digestivesymptoms"
+            android:exported="false" />
+        <activity
+            android:name=".respiratorysymptoms"
+            android:exported="false" />
+        <activity
+            android:name=".heartrate"
+            android:exported="false" />
+        <activity
+            android:name=".nutritiontracking"
+            android:exported="false" />
+        <activity
+            android:name=".exerciselogging"
+            android:exported="false" />
+        <activity
+            android:name=".activitytracking"
+            android:exported="false" />
+        <activity
+            android:name=".exercises"
+            android:exported="false" />
+        <activity
+            android:name=".monitoryfertility"
+            android:exported="false" />
+        <activity
+            android:name=".trackmycycle"
+            android:exported="false" />
+        <activity
+            android:name=".parkinson"
+            android:exported="false" />
+        <activity
+            android:name=".alzheimer"
+            android:exported="false" />
+        <activity
+            android:name=".migraines"
+            android:exported="false" />
+        <activity
+            android:name=".epilopsy"
+            android:exported="false" />
+        <activity
+            android:name=".labreport"
+            android:exported="false" />
+        <activity
+            android:name=".requestanappointment"
+            android:exported="false" />
+        <activity
+            android:name=".findadoctor"
+            android:exported="false" />
+        <activity
+            android:name=".Vaccination"
+            android:exported="false" />
+        <activity
+            android:name=".SymptomChecker"
+            android:exported="false" />
+        <activity
+            android:name=".Neurology"
+            android:exported="false" />
+        <activity
+            android:name=".HealthTracker"
+            android:exported="false" />
+        <activity
             android:name=".WomenHealth"
             android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Orthopedics"
             android:exported="false" />
@@ -22,13 +109,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"
